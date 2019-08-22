@@ -4,10 +4,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Connections\\": "functions/",
-            "tributos\\": "functions/"
+            "Connections\\": "functions",
+            "tributos\\": "functions"
         }
     }
 }
-
-
