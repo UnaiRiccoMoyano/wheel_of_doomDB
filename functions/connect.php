@@ -19,4 +19,11 @@ class Connect
         }
         return $con;
     }
+    function estoyConectado(){
+        $connectado = $this->connectDDBB();
+
+        if ($connectado) {
+            return "Estoy conectado";
+        }
+    }
 }

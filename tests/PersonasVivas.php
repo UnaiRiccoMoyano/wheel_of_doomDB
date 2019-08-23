@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 use tributos\Personas;
 
-class PersonasVivasTest extends TestCase
+class PersonasVivas extends TestCase
 {
     public function testEstaVivo()
     {
